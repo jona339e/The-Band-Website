@@ -55,6 +55,13 @@ color: lightslategray;
     align-items: center;
     justify-content: center;
 }
+.hero-imagex4{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .page-foot{
     height: 120px;
