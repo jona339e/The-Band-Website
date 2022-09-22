@@ -1,0 +1,92 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    
+}
+body{
+    /* background-color: black; */
+}
+.wrapper{
+    background-color: white;
+    max-width: 1400px;
+    max-height: 100vh;
+    margin: auto;           /*centers the wrapper container so there is whitespace on each side*/
+    display: flex;
+    flex-direction: column;
+}
+.page-head{
+    height: 260px;
+    background-image:url(../img/banner.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 85px;
+}
+.navigation{
+    /* height: 100%; */
+    display: flex;
+}
+.nav-item{
+    color: black;
+    text-decoration: none;
+    display: flex;                              /* display skal være flex for at align-content virker*/
+    align-items:flex-end;
+    padding: 15px;
+    font-size: 24px;
+    max-height: fit-content;
+}
+
+.nav-item:hover{
+color: lightslategray;
+
+}
+.page-content{
+    display: flex;
+    /* flex: 1; */
+
+    
+}
+.page-text{
+    width: 40%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.hero-image{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-foot{
+    height: 120px;
+    background-image:url(../img/banner_footer.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.text-title{
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.text-paragraf{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.foot-text{
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 40px;
+}
+
+.foot-pictures{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 40%;
+}
+.pictures-big{
+
+}
+.pictures-small{
+padding-left: 30px;
+}
