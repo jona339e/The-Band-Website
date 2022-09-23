@@ -58,6 +58,7 @@ color: lightslategray;
     display: flex;
     position: relative;
     right: -90px;
+    max-height: fit-content;
 }
 .images{
     display: flex;
@@ -72,7 +73,7 @@ color: lightslategray;
 }
 
 .page-foot{
-    height: 120px;
+    min-height: 10vh;
     background-image:url(../img/banner_footer.jpg);
     display: flex;
     align-items: center;
@@ -117,10 +118,4 @@ li{
     height: 350px;
     margin: 20px auto;
 }
-fieldset{
-    border: none;
-}
 
-button{
-    
-}
