@@ -2,9 +2,7 @@
     margin: 0; padding: 0; box-sizing: border-box;
     
 }
-body{
-    /* background-color: black; */
-}
+
 .wrapper{
     background-color: white;
     max-width: 1400px;
@@ -14,7 +12,7 @@ body{
     flex-direction: column;
 }
 .page-head{
-    height: 260px;
+    height: 220px;
     background-image:url(../img/banner.jpg);
     display: flex;
     justify-content: space-between;
@@ -55,12 +53,22 @@ color: lightslategray;
     align-items: center;
     justify-content: center;
 }
-.hero-imagex4{
-    width: 50%;
+.hero-image-concert{
+    padding: 25px 0;
     display: flex;
+    position: relative;
+    right: -90px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    width: 60%;
+    padding: 20px 0;
+}
+.hero-imagex4{
+    margin: 15px 15px;
 }
 
 .page-foot{
@@ -76,8 +84,13 @@ color: lightslategray;
 }
 
 .text-paragraf{
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
+}
+.text-paragraf-big{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .foot-text{
@@ -91,9 +104,23 @@ color: lightslategray;
     align-items: flex-end;
     padding-left: 40%;
 }
-.pictures-big{
-
-}
 .pictures-small{
 padding-left: 30px;
+}
+li{
+    list-style-type: none;
+    margin-top: -10px;
+}
+
+.Fan-Mail-Box{
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+}
+fieldset{
+    border: none;
+}
+
+button{
+    
 }
